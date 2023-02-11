@@ -2,7 +2,7 @@
 
 Package that performs tracking of colloidal particles in **2D**. Based on conventional tracking methods used in [this paper](https://crocker.seas.upenn.edu/CrockerGrier1996b.pdf). This is version based on a tracking code written in R (see [Repo](https://github.com/merrygoat/2d-particle-tracking)). NOTE: other available packages, such as ``Trackpy``, allow particle tracking in 2D & 3D.
 
-## Installation 
+## Installation 
 
 Use
 
@@ -24,7 +24,7 @@ import particle_tracking as pt
 ```
 
 
-The code has three main class objects `Tracker`, `Linker` & `Filtering'`, which allow to detect particles, reconstruct individual trajectories (using `Trackpy`'s linking method, and filter trajectories respectively. Simply use
+The code has three main class objects `Tracker`, `Linker` & `Filtering`, which allow to detect particles, reconstruct individual trajectories (using `Trackpy`'s linking method, and filter trajectories respectively. Simply use
 
 ```
 pt.Tracker()
@@ -47,7 +47,7 @@ menu = menus.MainMenu()
 menu.options
 ```
 
-![Interactive menu](/docs/interactive_menu.gif "Sample gif") 
+![Interactive menu](https://github.com/Mauva27/particle_tracking/docs/interactive_menu.gif "Sample gif") 
 
 
 Once the paramerts are selected use
