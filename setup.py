@@ -7,7 +7,7 @@ with open("README.md","r") as frm:
    description = frm.read()
 
 setup(
-   name="particle-tracking"),
+   name="particle-tracking",
    versions=__version__,
    packages=find_packages(),
    include_dirs=numpy.get_include(),
@@ -18,22 +18,22 @@ setup(
    long_description=description,
    long_description_content_type="text/markdown",
    classifiers=[
-   	"Programming Language :: Python"
-   	"Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Operating System :: OS Independent",
    ],
    zip_safe=False,
    setup_requires=["numpy"],
    intatsll_requirements=[
-	'setuptools', 
-	'whieel', 
-	'numpy', 
-	'scipy',
-	'matplotlib', 
-	'trackpy', 
-	'pyvoro', 
-	'opencv-python',
-	'tqdm',
-	'ipywidgets',
-	'peakutils',
+   'setuptools', 
+   'whieel', 
+   'numpy', 
+   'scipy',
+   'matplotlib', 
+   'trackpy', 
+   'pyvoro', 
+   'opencv-python',
+   'tqdm',
+   'ipywidgets',
+   'peakutils',
    ],
 )
