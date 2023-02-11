@@ -47,7 +47,7 @@ menu = menus.MainMenu()
 menu.options
 ```
 
-![Interactive menu](https://github.com/Mauva27/particle_tracking/docs/interactive_menu.gif "Sample gif") 
+![](https://github.com/Mauva27/particle_tracking/blob/master/docs/intearctive_menu.gif "Sample gif") 
 
 
 Once the paramerts are selected use
@@ -56,4 +56,4 @@ Once the paramerts are selected use
 ```
 params = menus.return_params(menu.options.children)
 ```
-ß
+
