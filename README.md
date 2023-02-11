@@ -50,10 +50,25 @@ menu.options
 ![](https://github.com/Mauva27/particle_tracking/blob/master/docs/intearctive_menu.gif "Sample gif") 
 
 
-Once the paramerts are selected use
+Once the parameters are selected use
 
 
 ```
 params = menus.return_params(menu.options.children)
 ```
 
+## Characterisation
+
+The code includes extra tools to characterise the samples onced they have been tracked. Structural order and dynamics can be anylsed by means of $\psi_{6}$ and mean-squared displacements. For example,
+
+```
+from particle_tracking.src.characterisation import Psi6
+psi6 = Psi6()
+```
+
+or
+
+```
+from particle_tracking.src.characterisation import MSD
+msd = MSD()
+```
