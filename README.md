@@ -16,7 +16,7 @@ to simply install the code.
 <h2>Using the code</h2>
 
 <p>
-the simples way to run the code is busing a ``jupyer notebook``. See templates inside ``particle_tracking/example/``. Start with
+the simples way to run the code is busing a `jupyer notebook`. See templates inside `particle_tracking/example/`. Start with
 </p>
 
 ```
@@ -24,7 +24,7 @@ import particle_tracking as pt
 ```
 
 <p>
-The code has three main class objects ``Tracker``, ``Linker`` & ``Filtering``, which allow to detect particles, reconstruct individual trajectories (using ``Trackpy``'s linking method, and filter trajectories respectively. Simply use</p>
+The code has three main class objects `Tracker`, `Linker` & `Filtering'`, which allow to detect particles, reconstruct individual trajectories (using `Trackpy`'s linking method, and filter trajectories respectively. Simply use</p>
 
 ```
 pt.Tracker()
@@ -33,7 +33,7 @@ pt.Filtering
 ```
 
 <p>
-to access the main functions. NOTE: all of the class obejct above require ``params``, a dictionary containing parameters to exceute the tracking methods. See the next section to learn how to generate ``params``.
+to access the main functions. NOTE: all of the class obejct above require `params`, a dictionary containing parameters to exceute the tracking methods. See the next section to learn how to generate `params`.
 </p>
 
 <h3>Interactive Menu</h3>
@@ -47,7 +47,7 @@ menu = menus.MainMenu()
 menu.options
 ```
 
-![Interactive menu](/docs/interactive_menu.gif) 
+![Interactive menu](/docs/interactive_menu.gif "Sample gif") 
 
 <p>
 Once the paramerts are selected use
